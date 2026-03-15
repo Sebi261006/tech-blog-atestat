@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="log.css">
+</head>
+<body>
+    <div class="login-wrapper">
+        <div class="login-card">
+            <h2>Login</h2>
+            <form id="authForm">
+                <div class="input-group">
+                    <input type="text" id="username" name="username" required>
+                    <label for="username">Utilizator</label>
+                </div>
+                <div class="input-group">
+                    <input type="password" id="password" name="password" required>
+                    <label for="password">Parolă</label>
+                </div>
+                <button type="submit">Login</button>
+                <p id="errorMsg" class="error"></p>
+            </form>
+            <p class="toggleForm">
+                Nu ai cont? <a href="../register/register.html">Înregistrează-te</a>
+            </p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

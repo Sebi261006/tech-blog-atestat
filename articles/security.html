@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siguranța pe internet</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="articles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Blog Tehnologie</h1>
+        <div class="user-actions">
+            <button id="loginBtn">Login</button>
+            <button id="logoutBtn">Logout</button>
+        </div>
+    </header>
+
+    <main class="articles-container">
+        <article class="article-card">
+            <h2>Siguranța pe internet</h2>
+            <p>Siguranța online este foarte importantă. Utilizatorii trebuie să fie atenți la datele personale pe care le oferă.</p>
+            <p>Recomandări: să folosim parole puternice, să evităm site-urile nesigure, să nu distribuim informații personale.</p>
+            <p>Respectarea acestor reguli reduce riscul de fraudă și atacuri informatice.</p>
+        </article>
+
+        <div id="commentFormWrapper">
+            <p id="commentMsg"></p>
+            <input type="text" id="commentInput" placeholder="Scrie un comentariu...">
+            <button id="commentBtn">Adaugă comentariu</button>
+        </div>
+
+        <ul id="commentsList"></ul>
+    </main>
+
+    <script src="/articles/article.js"></script>
+</body>
+</html>

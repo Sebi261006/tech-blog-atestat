@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.articles-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.article-card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 280px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.article-card h2 {
+    margin-top: 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.article-card p {
+    font-size: 0.95rem;
+    line-height: 1.4;
+    color: #555;
+}
+
+.article-card a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #4a90e2;
+    font-weight: bold;
+}
+
+.article-card a:hover {
+    text-decoration: underline;
+}
