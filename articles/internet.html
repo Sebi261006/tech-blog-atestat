@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evoluția internetului</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="articles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Blog Tehnologie</h1>
+        <div class="user-actions">
+            <button id="loginBtn">Login</button>
+            <button id="logoutBtn">Logout</button>
+        </div>
+    </header>
+
+    <main class="articles-container">
+        <article class="article-card">
+            <h2>Evoluția internetului</h2>
+            <p>Internetul a apărut inițial ca un proiect militar, având scopul de a facilita comunicarea rapidă între calculatoare. De-a lungul timpului, acesta a evoluat foarte mult și a devenit o parte esențială a vieții cotidiene.</p>
+            <p>Astăzi, internetul este folosit pentru informare, comunicare, educație și divertisment. Accesul rapid la informație a schimbat modul în care oamenii învață, lucrează și socializează.</p>
+            <p>Dezvoltarea internetului a dus la apariția site-urilor web, rețelelor sociale și aplicațiilor online, influențând puternic societatea modernă.</p>
+        </article>
+
+        <div id="commentFormWrapper">
+            <p id="commentMsg"></p>
+            <input type="text" id="commentInput" placeholder="Scrie un comentariu...">
+            <button id="commentBtn">Adaugă comentariu</button>
+        </div>
+
+        <ul id="commentsList"></ul>
+    </main>
+
+    <script src="/articles/article.js"></script>
+</body>
+</html>
